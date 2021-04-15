@@ -5,7 +5,7 @@ Help to create standard dictionary for translation..
 
 ## Usage
   
-1. Download [idf file](https://1drv.ms/u/s!AqtemAEf9YLcx1G2S2XTb8mbPIVX?e=e2nx54)
+1. Download [idf file](https://github.com/SmartDataAnalytics/Wikipedia_TF_IDF_Dataset/blob/master/en/wiki_tfidf_terms.csv.gz) and extract
 1. Download [main.exe](dist/main.exe)
 1. Run as below
     - main.exe "input file" "idf file" "output file"
@@ -18,7 +18,7 @@ Help to create standard dictionary for translation..
 
 ## 使い方
   
-1. [idfファイル](https://1drv.ms/u/s!AqtemAEf9YLcx1G2S2XTb8mbPIVX?e=e2nx54)をダウンロード
+1. [idfファイル](https://github.com/SmartDataAnalytics/Wikipedia_TF_IDF_Dataset/blob/master/en/wiki_tfidf_terms.csv.gz)をダウンロードして解凍
 1. [main.exe](dist/main.exe)のダウンロード
 1. 以下のように実行します。
     - main.exe "入力ファイル" "idfファイル" "出力ファイル"
