@@ -30,9 +30,9 @@ vector = word.toarray()
 tokens = []
 tfidfs = []
 for word,count in zip(txt_vec.get_feature_names()[:], vector[0, :]):
-    idf = 0.0000000000000000000000000000000001
+    idf = 0.000000001
     if word in idfdict:
-        idf = idfdict[word]
+        idf = float(idfdict[word])
     tfidf = count * idf
     #print("{},{},{}".format(word,count,tfidf))
     tokens.append(word)
